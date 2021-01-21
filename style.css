@@ -1,13 +1,31 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .hero-page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images//background.jpeg");
+    background-color: #739086;
     height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave1 {
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+}
+
+.wave2 {
+    height: 55%;
+    position: absolute;
+    bottom: 5px;
 }
 
 .hero-text {
@@ -16,4 +34,32 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    line-height: 45px;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    line-height: 45px;
+}
+
+.hero-text p {
+    font-size: 1.75rem;
+} 
+
+.hero-text button {
+    border: none;
+    height: 50px;
+    width: 125px;
+    border-radius: 99999px;
+    background-color: #a4bdbe;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.1);
 }
