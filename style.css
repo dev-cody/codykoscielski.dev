@@ -1,9 +1,20 @@
+/*************************************
+*                                    *
+*       Developed by @dev_cody       *
+*       Cody Koscielski              *
+*                                    *
+*       1. Header Styles             *
+*       2. Project cards             *
+*                                    *
+*************************************/
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* 1. Header styles for landing page*/
 
 .hero-page {
     background-color: #739086;
@@ -63,3 +74,7 @@
     font-weight: 500;
     text-shadow: 2px 1px rgba(0, 0, 0, 0.1);
 }
+
+/* End Header styles for landing page */
+
+/* 2. Project cards */
