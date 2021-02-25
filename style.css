@@ -8,10 +8,23 @@
 *                                    *
 *************************************/
 
+/* Google font imprt */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h3 {
+    text-align: center;
 }
 
 /* 1. Header styles for landing page*/
@@ -78,3 +91,43 @@
 /* End Header styles for landing page */
 
 /* 2. Project cards */
+
+.card-container {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-img-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(69,115,115);
+    background: linear-gradient(90deg, rgba(69,115,115,0.9222064393939394) 0%, rgba(114,150,151,0.6949337121212121) 100%);
+}
+
+.card-img-container img {
+    width: 95%;
+    height: 95%;
+    border-radius: 8px;
+}
+
+.card-body h1 {
+    font-size: 1.5rem;
+}
+
+.card-body h2 {
+    font-size: 1rem;
+    opacity: .5;
+}
+
+.card-body p {
+    font-size: .75rem;
+    letter-spacing: .75px;
+}
