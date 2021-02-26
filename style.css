@@ -111,7 +111,7 @@ h3 {
 
 .card-container {
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,6 +156,7 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 5%;
 }
 
 .card-body-icons i {
@@ -166,9 +167,21 @@ h3 {
 
 /* 3. Skills */
 
+.skills-section {
+    background-color: #a4bdbe;
+    height: 60vh;
+    margin-bottom: 15px;
+}
+
+.skills-section h3 {
+    margin-top: 5%;
+    padding-top: 10%;
+    color: #eee;
+}
+
 .skills-container {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -260,7 +273,7 @@ h3 {
     background-color: #d8d8d6;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 15px;
-    height: 53vh;
+    height: 57vh;
 }
 
 .form-div{
@@ -333,7 +346,7 @@ form button {
     color: white;
     background-color: #739086;
     width: 100px;
-    height: 25px;
+    height: 50px;
     border-radius: 15px;
     font-size: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
