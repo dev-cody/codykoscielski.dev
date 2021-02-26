@@ -5,6 +5,7 @@
 *                                    *
 *       1. Header Styles             *
 *       2. Project cards             *
+*       3. Skills                    *
 *                                    *
 *************************************/
 
@@ -106,8 +107,12 @@ h3 {
     flex-direction: column;
 }
 
-.card-container img {
-    width: 90%;
+.card-container a {
+    width: 90%; 
+    margin: 2% auto;
+}
+
+.card-img {
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     transition-duration: .5s;
@@ -146,3 +151,50 @@ h3 {
 }
 
 /* End Project cards */
+
+/* 3. Skills */
+
+.skills-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-container .rows {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tech-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #739086;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+}
+
+.tech-icon i {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #d8d8d6;
+}
+
+.tech-icon p {
+    color: #d8d8d6;
+    margin: 0;
+    font-size: .75rem;
+}
+
+/* End skills */
