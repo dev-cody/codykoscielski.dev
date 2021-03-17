@@ -106,9 +106,18 @@ h3 {
     text-shadow: 2px 1px rgba(0, 0, 0, 0.1);
 }
 
+.hero-text button a {
+    text-decoration: none;
+    color: white;
+}
+
 /* End Header styles for landing page */
 
 /* 2. Project cards */
+
+.portfolio-section h3 {
+    margin-top: 5%;
+}
 
 .card-container {
     width: 100%;
@@ -176,7 +185,7 @@ h3 {
 
 .skills-section h3 {
     margin-top: 5%;
-    padding-top: 10%;
+    padding-top: 5%;
     color: #eee;
 }
 
@@ -420,6 +429,88 @@ footer {
 /* Tablet screens*/
 @media only screen and (min-width: 768px) {
     
+    .hero-text h1 {
+        font-size: 4rem;
+        letter-spacing: 4.5px;
+        line-height: 55px;
+    }
+    
+    .hero-text h2 {
+        font-size: 3rem;
+        letter-spacing: 3.5px;
+        line-height: 55px;
+    }
+    
+    .hero-text p {
+        font-size: 2rem;
+    } 
+    
+    .hero-text button {
+        border: none;
+        height: 70px;
+        width: 145px;
+        border-radius: 99999px;
+        background-color: #a4bdbe;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-shadow: 2px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-container {
+        height: 95vh;
+    }
+
+    .card-body h1 {
+        font-size: 2rem;
+    }
+    
+    .card-body h2 {
+        font-size: 1.25rem;
+    }
+    
+    .card-body p {
+        font-size: 1rem;
+    }
+    
+    .card-body-icons i {
+        font-size: 4rem;
+    }
+
+    .tech-icon {
+        height: 110px;
+        width: 110px;
+    }
+    
+    .tech-icon i {
+        font-size: 4rem;
+    }
+    
+    .tech-icon p {
+        font-size: 1rem;
+    }
+
+    .about-container p {
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+        line-height: 25px;
+    }
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #a4bdbe;
+        height: 75vh;
+    }
+    
+    
+    .contact-form-container {
+        max-width: 500px;
+        width: 100%;
+        height: 50vh;
+    }
 
 }
 /*Large screen*/
